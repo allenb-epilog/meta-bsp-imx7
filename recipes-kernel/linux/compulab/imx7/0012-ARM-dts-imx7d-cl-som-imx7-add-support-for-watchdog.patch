@@ -7,13 +7,13 @@ Add support for watchdog WDOG1 for board reset.
 
 Signed-off-by: Ilya Ledvich <ilya@compulab.co.il>
 ---
- arch/arm/boot/dts/imx7d-cl-som-imx7.dts | 11 +++++++++++
+ arch/arm/boot/dts/nxp/imx/imx7d-cl-som-imx7.dts | 11 +++++++++++
  1 file changed, 11 insertions(+)
 
-diff --git a/arch/arm/boot/dts/imx7d-cl-som-imx7.dts b/arch/arm/boot/dts/imx7d-cl-som-imx7.dts
+diff --git a/arch/arm/boot/dts/nxp/imx/imx7d-cl-som-imx7.dts b/arch/arm/boot/dts/nxp/imx/imx7d-cl-som-imx7.dts
 index b588c2bf4586..d439f37d4d66 100644
---- a/arch/arm/boot/dts/imx7d-cl-som-imx7.dts
-+++ b/arch/arm/boot/dts/imx7d-cl-som-imx7.dts
+--- a/arch/arm/boot/dts/nxp/imx/imx7d-cl-som-imx7.dts
++++ b/arch/arm/boot/dts/nxp/imx/imx7d-cl-som-imx7.dts
 @@ -335,6 +335,12 @@
  	status = "okay";
  };

@@ -8,13 +8,13 @@ Add support for PWM2 based backlight used for LCD display.
 
 Signed-off-by: Ilya Ledvich <ilya@compulab.co.il>
 ---
- arch/arm/boot/dts/imx7d-sbc-imx7.dts | 22 ++++++++++++++++++++++
+ arch/arm/boot/dts/nxp/imx/imx7d-sbc-imx7.dts | 22 ++++++++++++++++++++++
  1 file changed, 22 insertions(+)
 
-diff --git a/arch/arm/boot/dts/imx7d-sbc-imx7.dts b/arch/arm/boot/dts/imx7d-sbc-imx7.dts
+diff --git a/arch/arm/boot/dts/nxp/imx/imx7d-sbc-imx7.dts b/arch/arm/boot/dts/nxp/imx/imx7d-sbc-imx7.dts
 index 8a549362a7a6..63b7f84723fd 100644
---- a/arch/arm/boot/dts/imx7d-sbc-imx7.dts
-+++ b/arch/arm/boot/dts/imx7d-sbc-imx7.dts
+--- a/arch/arm/boot/dts/nxp/imx/imx7d-sbc-imx7.dts
++++ b/arch/arm/boot/dts/nxp/imx/imx7d-sbc-imx7.dts
 @@ -15,6 +15,20 @@
  / {
  	model = "CompuLab CL-SOM-iMX7 on SB-SOM";

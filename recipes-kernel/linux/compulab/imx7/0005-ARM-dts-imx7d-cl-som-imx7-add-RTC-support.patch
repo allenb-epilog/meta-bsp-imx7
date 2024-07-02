@@ -7,13 +7,13 @@ Add support for EM3027 Real Time Clock over I2C2 bus.
 
 Signed-off-by: Ilya Ledvich <ilya@compulab.co.il>
 ---
- arch/arm/boot/dts/imx7d-cl-som-imx7.dts | 5 +++++
+ arch/arm/boot/dts/nxp/imx/imx7d-cl-som-imx7.dts | 5 +++++
  1 file changed, 5 insertions(+)
 
-diff --git a/arch/arm/boot/dts/imx7d-cl-som-imx7.dts b/arch/arm/boot/dts/imx7d-cl-som-imx7.dts
+diff --git a/arch/arm/boot/dts/nxp/imx/imx7d-cl-som-imx7.dts b/arch/arm/boot/dts/nxp/imx/imx7d-cl-som-imx7.dts
 index 900ad8a67d84..9302e14fe77b 100644
---- a/arch/arm/boot/dts/imx7d-cl-som-imx7.dts
-+++ b/arch/arm/boot/dts/imx7d-cl-som-imx7.dts
+--- a/arch/arm/boot/dts/nxp/imx/imx7d-cl-som-imx7.dts
++++ b/arch/arm/boot/dts/nxp/imx/imx7d-cl-som-imx7.dts
 @@ -199,6 +199,11 @@
  		reg = <0x50>;
  		pagesize = <16>;

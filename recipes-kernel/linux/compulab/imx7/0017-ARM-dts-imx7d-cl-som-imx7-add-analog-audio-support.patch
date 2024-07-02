@@ -11,13 +11,13 @@ codec from GPIO1_IO01 pin muxed in SAI1_MCLK mode.
 
 Signed-off-by: Ilya Ledvich <ilya@compulab.co.il>
 ---
- arch/arm/boot/dts/imx7d-cl-som-imx7.dts | 70 ++++++++++++++++++++++++-
+ arch/arm/boot/dts/nxp/imx/imx7d-cl-som-imx7.dts | 70 ++++++++++++++++++++++++-
  1 file changed, 69 insertions(+), 1 deletion(-)
 
-diff --git a/arch/arm/boot/dts/imx7d-cl-som-imx7.dts b/arch/arm/boot/dts/imx7d-cl-som-imx7.dts
+diff --git a/arch/arm/boot/dts/nxp/imx/imx7d-cl-som-imx7.dts b/arch/arm/boot/dts/nxp/imx/imx7d-cl-som-imx7.dts
 index d64b58a4b6eb..2b5866db921f 100644
---- a/arch/arm/boot/dts/imx7d-cl-som-imx7.dts
-+++ b/arch/arm/boot/dts/imx7d-cl-som-imx7.dts
+--- a/arch/arm/boot/dts/nxp/imx/imx7d-cl-som-imx7.dts
++++ b/arch/arm/boot/dts/nxp/imx/imx7d-cl-som-imx7.dts
 @@ -76,6 +76,35 @@
  			linux,default-trigger = "heartbeat";
  		};

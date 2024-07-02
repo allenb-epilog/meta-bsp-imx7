@@ -7,13 +7,13 @@ Add support for TI's WiLink8 WLAN module on SD2 bus.
 
 Signed-off-by: Ilya Ledvich <ilya@compulab.co.il>
 ---
- arch/arm/boot/dts/imx7d-cl-som-imx7.dts | 53 +++++++++++++++++++++++++
+ arch/arm/boot/dts/nxp/imx/imx7d-cl-som-imx7.dts | 53 +++++++++++++++++++++++++
  1 file changed, 53 insertions(+)
 
-diff --git a/arch/arm/boot/dts/imx7d-cl-som-imx7.dts b/arch/arm/boot/dts/imx7d-cl-som-imx7.dts
+diff --git a/arch/arm/boot/dts/nxp/imx/imx7d-cl-som-imx7.dts b/arch/arm/boot/dts/nxp/imx/imx7d-cl-som-imx7.dts
 index 53ee38abc5c3..ae66bc7e7e18 100644
---- a/arch/arm/boot/dts/imx7d-cl-som-imx7.dts
-+++ b/arch/arm/boot/dts/imx7d-cl-som-imx7.dts
+--- a/arch/arm/boot/dts/nxp/imx/imx7d-cl-som-imx7.dts
++++ b/arch/arm/boot/dts/nxp/imx/imx7d-cl-som-imx7.dts
 @@ -54,6 +54,17 @@
  		regulator-max-microvolt = <3300000>;
  		regulator-always-on;

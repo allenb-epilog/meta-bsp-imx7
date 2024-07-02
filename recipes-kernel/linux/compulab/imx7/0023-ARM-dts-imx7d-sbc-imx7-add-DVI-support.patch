@@ -5,13 +5,13 @@ Subject: [PATCH 23/38] ARM: dts: imx7d: sbc-imx7: add DVI support
 
 Signed-off-by: Ilya Ledvich <ilya@compulab.co.il>
 ---
- arch/arm/boot/dts/imx7d-sbc-imx7.dts | 31 ++++++++++++++++++++++++++++
+ arch/arm/boot/dts/nxp/imx/imx7d-sbc-imx7.dts | 31 ++++++++++++++++++++++++++++
  1 file changed, 31 insertions(+)
 
-diff --git a/arch/arm/boot/dts/imx7d-sbc-imx7.dts b/arch/arm/boot/dts/imx7d-sbc-imx7.dts
+diff --git a/arch/arm/boot/dts/nxp/imx/imx7d-sbc-imx7.dts b/arch/arm/boot/dts/nxp/imx/imx7d-sbc-imx7.dts
 index e1714c28ff37..453a18d865da 100644
---- a/arch/arm/boot/dts/imx7d-sbc-imx7.dts
-+++ b/arch/arm/boot/dts/imx7d-sbc-imx7.dts
+--- a/arch/arm/boot/dts/nxp/imx/imx7d-sbc-imx7.dts
++++ b/arch/arm/boot/dts/nxp/imx/imx7d-sbc-imx7.dts
 @@ -41,6 +41,13 @@
  		#gpio-cells = <2>;
  		reg = <0x20>;

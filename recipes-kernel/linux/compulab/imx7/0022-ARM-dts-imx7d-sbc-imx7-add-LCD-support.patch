@@ -7,13 +7,13 @@ Add support for Startek KD050C LCD display over lcdif interface.
 
 Signed-off-by: Ilya Ledvich <ilya@compulab.co.il>
 ---
- arch/arm/boot/dts/imx7d-sbc-imx7.dts | 83 ++++++++++++++++++++++++++++
+ arch/arm/boot/dts/nxp/imx/imx7d-sbc-imx7.dts | 83 ++++++++++++++++++++++++++++
  1 file changed, 83 insertions(+)
 
-diff --git a/arch/arm/boot/dts/imx7d-sbc-imx7.dts b/arch/arm/boot/dts/imx7d-sbc-imx7.dts
+diff --git a/arch/arm/boot/dts/nxp/imx/imx7d-sbc-imx7.dts b/arch/arm/boot/dts/nxp/imx/imx7d-sbc-imx7.dts
 index 834bdc8a592f..e1714c28ff37 100644
---- a/arch/arm/boot/dts/imx7d-sbc-imx7.dts
-+++ b/arch/arm/boot/dts/imx7d-sbc-imx7.dts
+--- a/arch/arm/boot/dts/nxp/imx/imx7d-sbc-imx7.dts
++++ b/arch/arm/boot/dts/nxp/imx/imx7d-sbc-imx7.dts
 @@ -16,6 +16,10 @@
  	model = "CompuLab CL-SOM-iMX7 on SB-SOM";
  	compatible = "compulab,sbc-imx7", "compulab,cl-som-imx7", "fsl,imx7d";

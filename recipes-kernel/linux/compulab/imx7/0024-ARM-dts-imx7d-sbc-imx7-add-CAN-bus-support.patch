@@ -7,13 +7,13 @@ Enable CAN bus support over FLEXCAN1 and FLEXCAN2 interfaces.
 
 Signed-off-by: Ilya Ledvich <ilya@compulab.co.il>
 ---
- arch/arm/boot/dts/imx7d-sbc-imx7.dts | 26 ++++++++++++++++++++++++++
+ arch/arm/boot/dts/nxp/imx/imx7d-sbc-imx7.dts | 26 ++++++++++++++++++++++++++
  1 file changed, 26 insertions(+)
 
-diff --git a/arch/arm/boot/dts/imx7d-sbc-imx7.dts b/arch/arm/boot/dts/imx7d-sbc-imx7.dts
+diff --git a/arch/arm/boot/dts/nxp/imx/imx7d-sbc-imx7.dts b/arch/arm/boot/dts/nxp/imx/imx7d-sbc-imx7.dts
 index 453a18d865da..ba5ca7cc396a 100644
---- a/arch/arm/boot/dts/imx7d-sbc-imx7.dts
-+++ b/arch/arm/boot/dts/imx7d-sbc-imx7.dts
+--- a/arch/arm/boot/dts/nxp/imx/imx7d-sbc-imx7.dts
++++ b/arch/arm/boot/dts/nxp/imx/imx7d-sbc-imx7.dts
 @@ -29,6 +29,18 @@
  	};
  };

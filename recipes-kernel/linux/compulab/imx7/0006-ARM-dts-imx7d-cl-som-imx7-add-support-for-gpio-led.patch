@@ -7,13 +7,13 @@ Add support for onboard LED driven by GPIO6_14 in heartbeat mode.
 
 Signed-off-by: Ilya Ledvich <ilya@compulab.co.il>
 ---
- arch/arm/boot/dts/imx7d-cl-som-imx7.dts | 19 +++++++++++++++++++
+ arch/arm/boot/dts/nxp/imx/imx7d-cl-som-imx7.dts | 19 +++++++++++++++++++
  1 file changed, 19 insertions(+)
 
-diff --git a/arch/arm/boot/dts/imx7d-cl-som-imx7.dts b/arch/arm/boot/dts/imx7d-cl-som-imx7.dts
+diff --git a/arch/arm/boot/dts/nxp/imx/imx7d-cl-som-imx7.dts b/arch/arm/boot/dts/nxp/imx/imx7d-cl-som-imx7.dts
 index 9302e14fe77b..9b43fc815e20 100644
---- a/arch/arm/boot/dts/imx7d-cl-som-imx7.dts
-+++ b/arch/arm/boot/dts/imx7d-cl-som-imx7.dts
+--- a/arch/arm/boot/dts/nxp/imx/imx7d-cl-som-imx7.dts
++++ b/arch/arm/boot/dts/nxp/imx/imx7d-cl-som-imx7.dts
 @@ -31,6 +31,16 @@
  		gpio = <&gpio1 5 GPIO_ACTIVE_HIGH>;
  		enable-active-high;

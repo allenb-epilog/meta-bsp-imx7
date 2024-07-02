@@ -14,26 +14,7 @@ SRC_URI:append = " \
 	file://0013-ARM-dts-imx7d-cl-som-imx7-add-support-for-NAND-flash.patch \
 	file://0014-ARM-dts-imx7d-cl-som-imx7-add-WiLink8-WLAN-support.patch \
 	file://0015-ARM-dts-imx7d-cl-som-imx7-add-WiLink-Bluetooth-suppo.patch \
-	file://0016-ASoC-fsl-add-analog-audio-support-switch-for-imx-boa.patch \
 	file://0017-ARM-dts-imx7d-cl-som-imx7-add-analog-audio-support.patch \
-	file://0018-ARM-dts-imx7d-sbc-imx7-update-model-string.patch \
-	file://0019-ARM-dts-imx7d-sbc-imx7-add-support-for-pwm-backlight.patch \
-	file://0020-ARM-dts-imx7d-sbc-imx7-add-gpio-extender-support.patch \
-	file://0021-ARM-dts-imx7d-sbc-imx7-add-support-for-baseboard-eep.patch \
-	file://0022-ARM-dts-imx7d-sbc-imx7-add-LCD-support.patch \
-	file://0023-ARM-dts-imx7d-sbc-imx7-add-DVI-support.patch \
-	file://0024-ARM-dts-imx7d-sbc-imx7-add-CAN-bus-support.patch \
-	file://0025-PCIe-imx6-release-phy-reset-before-toggling-reset-gp.patch \
-	file://0026-PCIe-imx6-imx7d-add-support-for-phy-refclk-source-co.patch \
-	file://0027-ARM-dts-imx7d-sbc-imx7-enable-PCIe.patch \
-	file://0028-ARM-dts-imx7d-sbc-imx7-enable-SB-SOM-peripheral.patch \
-	file://0029-ARM-dts-imx7d-add-support-for-high-speed-modes-on-SD.patch \
-	file://0030-ARM-dts-imx7d-sbc-imx7-add-support-for-high-speed-mo.patch \
-	file://0031-ARM-dts-imx7d-sbc-imx7-add-support-for-m4.patch \
-	file://0032-ARM-dts-imx7d-sbc-iot-imx7-add-basic-board-support.patch \
-	file://0033-ARM-dts-imx7d-sbc-iot-imx7-add-support-for-high-spee.patch \
-	file://0034-ARM-dts-imx7d-sbc-iot-imx7-add-support-for-CAN-bus.patch \
-	file://0035-ARM-dts-imx7d-sbc-iot-imx7-add-support-for-RS485-in-.patch \
 	file://0036-MLK-13605-ARM-dts-imx7d.dtsi-configure-USB-burst-pro.patch \
 	file://0037-mtd-tests-nandecctest-add-dummy-module-parameter.patch \
 	file://0038-ARM-configs-add-defconfig-for-compulab-imx7-based-de.patch \
@@ -41,9 +22,7 @@ SRC_URI:append = " \
 	file://0040-cl-som-imx7-dts-phy-Fix-for-rev-1.4.patch \
 	file://0041-video-mipi-panel-ti-sn65dsi83-add-MIPI-LVDS-bridge-d.patch \
 	file://0042-compulab_imx7-defconfig-Enable-FB_MXC_SN65DSI8X.patch \
-	file://0043-ARM-dts-imx7d-sbc-iot-imx7-add-LVDS-panel-support.patch \
 	file://0044-mipi_dsi-platform-Merge-the-4.14.98-code.patch \
-	file://0045-compulab_imx7_defconfig-Add-sdma-imx7d.bin.patch \
 	file://defconfig \
 "
 
@@ -57,3 +36,26 @@ do_configure:append() {
         cp -a ${WORKDIR}/imx ${S}/lib/firmware
     fi
 }
+
+
+#	file://0016-ASoC-fsl-add-analog-audio-support-switch-for-imx-boa.patch
+#	file://0018-ARM-dts-imx7d-sbc-imx7-update-model-string.patch
+#	file://0019-ARM-dts-imx7d-sbc-imx7-add-support-for-pwm-backlight.patch
+#	file://0020-ARM-dts-imx7d-sbc-imx7-add-gpio-extender-support.patch
+#	file://0021-ARM-dts-imx7d-sbc-imx7-add-support-for-baseboard-eep.patch
+#	file://0022-ARM-dts-imx7d-sbc-imx7-add-LCD-support.patch
+#	file://0023-ARM-dts-imx7d-sbc-imx7-add-DVI-support.patch
+#	file://0024-ARM-dts-imx7d-sbc-imx7-add-CAN-bus-support.patch
+#	file://0025-PCIe-imx6-release-phy-reset-before-toggling-reset-gp.patch
+#	file://0026-PCIe-imx6-imx7d-add-support-for-phy-refclk-source-co.patch
+#	file://0027-ARM-dts-imx7d-sbc-imx7-enable-PCIe.patch
+#	file://0028-ARM-dts-imx7d-sbc-imx7-enable-SB-SOM-peripheral.patch
+#	file://0029-ARM-dts-imx7d-add-support-for-high-speed-modes-on-SD.patch
+#	file://0030-ARM-dts-imx7d-sbc-imx7-add-support-for-high-speed-mo.patch
+#	file://0031-ARM-dts-imx7d-sbc-imx7-add-support-for-m4.patch
+#	file://0032-ARM-dts-imx7d-sbc-iot-imx7-add-basic-board-support.patch
+#	file://0033-ARM-dts-imx7d-sbc-iot-imx7-add-support-for-high-spee.patch
+#	file://0034-ARM-dts-imx7d-sbc-iot-imx7-add-support-for-CAN-bus.patch
+#	file://0035-ARM-dts-imx7d-sbc-iot-imx7-add-support-for-RS485-in-.patch
+#	file://0043-ARM-dts-imx7d-sbc-iot-imx7-add-LVDS-panel-support.patch
+#	file://0045-compulab_imx7_defconfig-Add-sdma-imx7d.bin.patch

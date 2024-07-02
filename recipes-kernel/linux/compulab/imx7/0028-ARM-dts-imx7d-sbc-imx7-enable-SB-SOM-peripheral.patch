@@ -44,13 +44,13 @@ headers oo the SB-SOM baseboard:
 Signed-off-by: Uri Mashiach <uri.mashiach@compulab.co.il>
 Signed-off-by: Ilya Ledvich <ilya@compulab.co.il>
 ---
- arch/arm/boot/dts/imx7d-sbc-imx7.dts | 107 ++++++++++++++++++++++++++-
+ arch/arm/boot/dts/nxp/imx/imx7d-sbc-imx7.dts | 107 ++++++++++++++++++++++++++-
  1 file changed, 106 insertions(+), 1 deletion(-)
 
-diff --git a/arch/arm/boot/dts/imx7d-sbc-imx7.dts b/arch/arm/boot/dts/imx7d-sbc-imx7.dts
+diff --git a/arch/arm/boot/dts/nxp/imx/imx7d-sbc-imx7.dts b/arch/arm/boot/dts/nxp/imx/imx7d-sbc-imx7.dts
 index d66f36f366cb..4e3653ecf5d7 100644
---- a/arch/arm/boot/dts/imx7d-sbc-imx7.dts
-+++ b/arch/arm/boot/dts/imx7d-sbc-imx7.dts
+--- a/arch/arm/boot/dts/nxp/imx/imx7d-sbc-imx7.dts
++++ b/arch/arm/boot/dts/nxp/imx/imx7d-sbc-imx7.dts
 @@ -28,6 +28,32 @@
  		default-brightness-level = <6>;
  		status = "okay";

@@ -5,13 +5,13 @@ Subject: [PATCH] cl-som-imx7: dts: phy: Fix for rev 1.4
 
 Signed-off-by: Valentin Raevsky <valentin@compulab.co.il>
 ---
- arch/arm/boot/dts/imx7d-cl-som-imx7.dts | 5 ++---
+ arch/arm/boot/dts/nxp/imx/imx7d-cl-som-imx7.dts | 5 ++---
  1 file changed, 2 insertions(+), 3 deletions(-)
 
-diff --git a/arch/arm/boot/dts/imx7d-cl-som-imx7.dts b/arch/arm/boot/dts/imx7d-cl-som-imx7.dts
+diff --git a/arch/arm/boot/dts/nxp/imx/imx7d-cl-som-imx7.dts b/arch/arm/boot/dts/nxp/imx/imx7d-cl-som-imx7.dts
 index 1cc0d58f76fa..7ef96478bfe3 100644
---- a/arch/arm/boot/dts/imx7d-cl-som-imx7.dts
-+++ b/arch/arm/boot/dts/imx7d-cl-som-imx7.dts
+--- a/arch/arm/boot/dts/nxp/imx/imx7d-cl-som-imx7.dts
++++ b/arch/arm/boot/dts/nxp/imx/imx7d-cl-som-imx7.dts
 @@ -187,7 +187,6 @@
  	phy-mode = "rgmii-id";
  	phy-handle = <&ethphy0>;

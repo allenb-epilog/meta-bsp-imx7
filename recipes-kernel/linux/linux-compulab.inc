@@ -14,5 +14,10 @@ do_compile:prepend() {
     fi
 }
 
+do_install:prepend() {
+    mkdir -p "${D}${nonarch_base_libdir}/modules/${KERNEL_VERSION}/"
+    touch "${D}${nonarch_base_libdir}/modules/${KERNEL_VERSION}/source"
+}
+
 COMPATIBLE_MACHINE = "cl-som-imx7"
 DEPENDS += "firmware-imx"

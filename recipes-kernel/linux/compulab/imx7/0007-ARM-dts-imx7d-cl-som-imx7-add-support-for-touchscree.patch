@@ -8,13 +8,13 @@ Add support for ADS7846 touchscreen controller over SPI1 bus.
 
 Signed-off-by: Ilya Ledvich <ilya@compulab.co.il>
 ---
- arch/arm/boot/dts/imx7d-cl-som-imx7.dts | 68 +++++++++++++++++++++++++
+ arch/arm/boot/dts/nxp/imx/imx7d-cl-som-imx7.dts | 68 +++++++++++++++++++++++++
  1 file changed, 68 insertions(+)
 
-diff --git a/arch/arm/boot/dts/imx7d-cl-som-imx7.dts b/arch/arm/boot/dts/imx7d-cl-som-imx7.dts
+diff --git a/arch/arm/boot/dts/nxp/imx/imx7d-cl-som-imx7.dts b/arch/arm/boot/dts/nxp/imx/imx7d-cl-som-imx7.dts
 index 9b43fc815e20..7fe6a027d4c2 100644
---- a/arch/arm/boot/dts/imx7d-cl-som-imx7.dts
-+++ b/arch/arm/boot/dts/imx7d-cl-som-imx7.dts
+--- a/arch/arm/boot/dts/nxp/imx/imx7d-cl-som-imx7.dts
++++ b/arch/arm/boot/dts/nxp/imx/imx7d-cl-som-imx7.dts
 @@ -32,6 +32,14 @@
  		enable-active-high;
  	};

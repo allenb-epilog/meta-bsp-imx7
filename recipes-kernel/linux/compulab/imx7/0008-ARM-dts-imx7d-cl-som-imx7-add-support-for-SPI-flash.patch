@@ -7,13 +7,13 @@ Add support for SPI flash over SPI1 bus.
 
 Signed-off-by: Ilya Ledvich <ilya@compulab.co.il>
 ---
- arch/arm/boot/dts/imx7d-cl-som-imx7.dts | 30 +++++++++++++++++++++++--
+ arch/arm/boot/dts/nxp/imx/imx7d-cl-som-imx7.dts | 30 +++++++++++++++++++++++--
  1 file changed, 28 insertions(+), 2 deletions(-)
 
-diff --git a/arch/arm/boot/dts/imx7d-cl-som-imx7.dts b/arch/arm/boot/dts/imx7d-cl-som-imx7.dts
+diff --git a/arch/arm/boot/dts/nxp/imx/imx7d-cl-som-imx7.dts b/arch/arm/boot/dts/nxp/imx/imx7d-cl-som-imx7.dts
 index 7fe6a027d4c2..4412c1bc1f7d 100644
---- a/arch/arm/boot/dts/imx7d-cl-som-imx7.dts
-+++ b/arch/arm/boot/dts/imx7d-cl-som-imx7.dts
+--- a/arch/arm/boot/dts/nxp/imx/imx7d-cl-som-imx7.dts
++++ b/arch/arm/boot/dts/nxp/imx/imx7d-cl-som-imx7.dts
 @@ -60,10 +60,10 @@
  };
  

@@ -5,13 +5,13 @@ Subject: [PATCH 01/38] ARM: dts: imx7d: cl-som-imx7: fix uart1 parent clock
 
 Signed-off-by: Ilya Ledvich <ilya@compulab.co.il>
 ---
- arch/arm/boot/dts/imx7d-cl-som-imx7.dts | 36 ++++++++++++-------------
+ arch/arm/boot/dts/nxp/imx/imx7d-cl-som-imx7.dts | 36 ++++++++++++-------------
  1 file changed, 18 insertions(+), 18 deletions(-)
 
-diff --git a/arch/arm/boot/dts/imx7d-cl-som-imx7.dts b/arch/arm/boot/dts/imx7d-cl-som-imx7.dts
+diff --git a/arch/arm/boot/dts/nxp/imx/imx7d-cl-som-imx7.dts b/arch/arm/boot/dts/nxp/imx/imx7d-cl-som-imx7.dts
 index 713483c39c9d..eacbccbe8301 100644
---- a/arch/arm/boot/dts/imx7d-cl-som-imx7.dts
-+++ b/arch/arm/boot/dts/imx7d-cl-som-imx7.dts
+--- a/arch/arm/boot/dts/nxp/imx/imx7d-cl-som-imx7.dts
++++ b/arch/arm/boot/dts/nxp/imx/imx7d-cl-som-imx7.dts
 @@ -195,7 +195,7 @@
  	pinctrl-names = "default";
  	pinctrl-0 = <&pinctrl_uart1>;

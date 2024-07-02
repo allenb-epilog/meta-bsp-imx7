@@ -10,13 +10,7 @@ UBOOT_CONFIG ??= "sd"
 UBOOT_CONFIG[sd] = "cl-som-imx7_defconfig,sdcard"
 
 KERNEL_DEVICETREE += " \
-	imx7d-cl-som-imx7.dtb \
-	imx7d-sbc-imx7.dtb \
-	imx7d-sbc-imx7-m4.dtb \
-	imx7d-sbc-imx7-lvds.dtb \
-	imx7d-sbc-iot-imx7.dtb \
-	imx7d-sbc-iot-imx7-rs485-hdx.dtb \
-	imx7d-sbc-iot-imx7-can.dtb \
+	nxp/imx/imx7d-cl-som-imx7.dtb \
 "
 
 IMAGE_BOOT_FILES = "zImage "

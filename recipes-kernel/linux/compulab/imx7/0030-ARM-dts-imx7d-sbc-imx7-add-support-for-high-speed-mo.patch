@@ -11,13 +11,13 @@ Enable switching the VCC_SD power supply output voltage between
 
 Signed-off-by: Ilya Ledvich <ilya@compulab.co.il>
 ---
- arch/arm/boot/dts/imx7d-sbc-imx7.dts | 48 +++++++++++++++++++++++++---
+ arch/arm/boot/dts/nxp/imx/imx7d-sbc-imx7.dts | 48 +++++++++++++++++++++++++---
  1 file changed, 44 insertions(+), 4 deletions(-)
 
-diff --git a/arch/arm/boot/dts/imx7d-sbc-imx7.dts b/arch/arm/boot/dts/imx7d-sbc-imx7.dts
+diff --git a/arch/arm/boot/dts/nxp/imx/imx7d-sbc-imx7.dts b/arch/arm/boot/dts/nxp/imx/imx7d-sbc-imx7.dts
 index 4e3653ecf5d7..714fe4c555de 100644
---- a/arch/arm/boot/dts/imx7d-sbc-imx7.dts
-+++ b/arch/arm/boot/dts/imx7d-sbc-imx7.dts
+--- a/arch/arm/boot/dts/nxp/imx/imx7d-sbc-imx7.dts
++++ b/arch/arm/boot/dts/nxp/imx/imx7d-sbc-imx7.dts
 @@ -35,6 +35,15 @@
  		regulator-min-microvolt = <1800000>;
  		regulator-max-microvolt = <1800000>;
