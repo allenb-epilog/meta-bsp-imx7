@@ -14,10 +14,11 @@ UBOOT_CONFIG[sd] = "cl-som-imx7_defconfig,sdcard"
 
 KERNEL_DEVICETREE += " \
 	nxp/imx/imx7d-cl-som-imx7.dtb \
+	nxp/imx/imx7d-sbc-imx7.dtb \
 "
 
 IMAGE_BOOT_FILES = "zImage "
-IMAGE_BOOT_FILES += " imx7d-cl-som-imx7.dtb "
+IMAGE_BOOT_FILES += " imx7d-cl-som-imx7.dtb imx7d-sbc-imx7.dtb "
 
 MACHINE_FEATURES += " alsa bluetooth serial usbhost wifi pci "
 

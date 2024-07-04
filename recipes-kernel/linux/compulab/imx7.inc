@@ -15,6 +15,18 @@ SRC_URI:append = " \
 	file://0014-ARM-dts-imx7d-cl-som-imx7-add-WiLink8-WLAN-support.patch \
 	file://0015-ARM-dts-imx7d-cl-som-imx7-add-WiLink-Bluetooth-suppo.patch \
 	file://0017-ARM-dts-imx7d-cl-som-imx7-add-analog-audio-support.patch \
+	file://0018-ARM-dts-imx7d-sbc-imx7-update-model-string.patch \
+	file://0019-ARM-dts-imx7d-sbc-imx7-add-support-for-pwm-backlight.patch \
+	file://0020-ARM-dts-imx7d-sbc-imx7-add-gpio-extender-support.patch \
+	file://0021-ARM-dts-imx7d-sbc-imx7-add-support-for-baseboard-eep.patch \
+	file://0022-ARM-dts-imx7d-sbc-imx7-add-LCD-support.patch \
+	file://0023-ARM-dts-imx7d-sbc-imx7-add-DVI-support.patch \
+	file://0024-ARM-dts-imx7d-sbc-imx7-add-CAN-bus-support.patch \
+	file://0027-ARM-dts-imx7d-sbc-imx7-enable-PCIe.patch \
+	file://0028-ARM-dts-imx7d-sbc-imx7-enable-SB-SOM-peripheral.patch \
+	file://0029-ARM-dts-imx7d-add-support-for-high-speed-modes-on-SD.patch \
+	file://0030-ARM-dts-imx7d-sbc-imx7-add-support-for-high-speed-mo.patch \
+	file://0031-ARM-dts-imx7d-sbc-imx7-add-support-for-m4.patch \
 	file://0036-MLK-13605-ARM-dts-imx7d.dtsi-configure-USB-burst-pro.patch \
 	file://0037-mtd-tests-nandecctest-add-dummy-module-parameter.patch \
 	file://0038-ARM-configs-add-defconfig-for-compulab-imx7-based-de.patch \
