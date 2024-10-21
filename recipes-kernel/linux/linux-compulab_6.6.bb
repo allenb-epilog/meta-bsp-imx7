@@ -28,8 +28,8 @@ KERNEL_EXTRA_ARGS += "LOADADDR=${UBOOT_ENTRYPOINT}"
 DEPENDS += "lzop-native bc-native"
 
 SRCBRANCH = "lf-6.6.y"
-LOCALVERSION = "-2.0.0"
-SRCREV = "b586a521770e508d1d440ccb085c7696b9d6d387"
+LOCALVERSION = "-2.1.0"
+SRCREV = "d23d64eea5111e1607efcce1d601834fceec92cb"
 
 SRC_URI = "git://github.com/nxp-imx/linux-imx;protocol=https;branch=${SRCBRANCH} \
 "
@@ -39,6 +39,6 @@ SRC_URI = "git://github.com/nxp-imx/linux-imx;protocol=https;branch=${SRCBRANCH}
 #
 # LINUX_VERSION define should match to the kernel version referenced by SRC_URI and
 # should be updated once patchlevel is merged.
-LINUX_VERSION = "6.6.23"
+LINUX_VERSION = "6.6.36"
 
 DEFAULT_PREFERENCE = "1"

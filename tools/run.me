@@ -8,10 +8,11 @@ pushd ${BSP_DIR}
 BSP_DIR=$(pwd)
 
 if [ ! -d ${BSP_DIR}/.repo ];then
-    repo init -u https://github.com/nxp-imx/imx-manifest.git -b imx-linux-kirkstone -m imx-5.15.71-2.2.0.xml
-    wget --directory-prefix .repo/local_manifests  https://raw.githubusercontent.com/compulab-yokneam/meta-bsp-imx7/kirkstone/scripts/meta-bsp-imx7.xml
+    repo init -u https://github.com/nxp-imx/imx-manifest.git -b imx-linux-scarthgap -m imx-6.6.36-2.1.0.xml
+    wget --directory-prefix .repo/local_manifests  https://raw.githubusercontent.com/allenb-epilog/meta-bsp-imx7/lf-6.6.y/scripts/meta-bsp-imx7.xml
     repo sync
     ln -s imx-setup-release.sh compulab-setup-env
+    sed -i 's/imx6*|imx7*/imx6*|imx7*|cl-som-imx7/g'
 fi
 
 if [ ! -d ${BSP_DIR}/build-${COMPULAB_MACHINE} ];then

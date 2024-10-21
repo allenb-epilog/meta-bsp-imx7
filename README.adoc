@@ -8,7 +8,7 @@ NOTE: This development branch has not yet been released/supported officially by 
 ## Setup Yocto environment
 Issue the command and follow the on-screen instructions:
 [source,console]
-bash <(curl -L https://raw.githubusercontent.com/compulab-yokneam/meta-bsp-imx7/kirkstone/tools/run.me)
+bash <(curl -L https://raw.githubusercontent.com/allenb-epilog/meta-bsp-imx7/lf-6.6.y/tools/run.me)
 
 At the end, the script prints out a message:
 ```

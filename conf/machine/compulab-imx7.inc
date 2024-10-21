@@ -5,7 +5,7 @@ require conf/machine/include/imx-base.inc
 require conf/machine/include/arm/armv7a/tune-cortexa7.inc
 
 MACHINE_FEATURES:remove:mx7-nxp-bsp = "nxp8987"
-PACKAGECONFIG:remove:imx-nxp-bsp = " cryptodev-linux"
+#PACKAGECONFIG:remove:imx-nxp-bsp = " cryptodev-linux"
 
 IMX_DEFAULT_BSP = "nxp"
 
@@ -20,11 +20,10 @@ KERNEL_DEVICETREE += " \
 IMAGE_BOOT_FILES = "zImage "
 IMAGE_BOOT_FILES += " imx7d-cl-som-imx7.dtb imx7d-sbc-imx7.dtb "
 
-MACHINE_FEATURES += " alsa bluetooth serial usbhost wifi pci "
+MACHINE_FEATURES += " serial usbhost wifi pci "
 
 MACHINE_FIRMWARE = "linux-firmware-wl18xx \
-			linux-firmware-iwlwifi-6000g2a-5 linux-firmware-iwlwifi-6000g2a-6 \
-			linux-firmware-iwlwifi-6000g2b-5 linux-firmware-iwlwifi-6000g2b-6"
+			"
 
 
 # Set Serial console
